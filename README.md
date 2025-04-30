@@ -1,8 +1,8 @@
 # Predicting-Smart-Grid-Energy-Loads-Using-Fuzzy-Systems
 
-# Fuzzy Logic Energy Consumption Prediction for Smart Grids
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ## Overview
+## Overview
 
 This repository contains the code and resources for predicting energy consumption in smart grids using **Fuzzy Logic**. Accurate forecasting is vital for optimizing grid operations, balancing supply/demand, integrating renewables, and reducing costs. This project implements a Fuzzy Inference System (FIS) designed to handle the inherent uncertainties and non-linearities present in energy usage data.
 
