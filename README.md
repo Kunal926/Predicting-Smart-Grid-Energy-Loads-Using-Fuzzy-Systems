@@ -25,7 +25,6 @@ This project implements a [Specify: e.g., Mamdani, Sugeno] type Fuzzy Inference 
 * Implementation of the core Fuzzy Inference System for prediction.
 * Definition of fuzzy sets and rules for energy consumption drivers.
 * Evaluation module to test prediction accuracy (e.g., using MAE, RMSE, MAPE).
-* [Optional: Add other features like visualization, comparison with other models, etc.]
 
 ## Technology Stack
 
@@ -72,19 +71,6 @@ This project implements a [Specify: e.g., Mamdani, Sugeno] type Fuzzy Inference 
     pip install -r requirements.txt
     ```
 
-## Usage
-
-*(Provide clear steps on how to run your code)*
-
-**Example:**
-
-1.  Place your input data (e.g., `energy_data.csv`) in the `data/` directory. Ensure it has columns like `timestamp`, `consumption_kwh`, `temperature_c`, `hour_of_day`, etc.
-2.  Run the main prediction script:
-    ```bash
-    python main.py --input_file data/energy_data.csv --output_file results/predictions.csv --model_config config/fuzzy_rules.yaml
-    ```
-    *(Modify command according to your script's arguments and structure)*
-
 ## Data
 
 The model typically requires time-series data including:
@@ -92,21 +78,12 @@ The model typically requires time-series data including:
 * Energy Consumption value
 * Relevant Features: Temperature, Humidity, Hour of Day, Day of Week, Holiday indicator, etc.
 
-*(Specify the exact required format or provide a link to sample data)*
-
 ## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/your-username/your-repo-name/issues).
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` file for more information. *(Make sure you have a LICENSE file in your repo)*
+Distributed under the MIT License. See `LICENSE` file for more information.
 
 ---
-
-**Remember to:**
-* Replace placeholders like `your-username/your-repo-name`, script names (`main.py`, `predict.py`), file paths, and specific library names.
-* Create the `requirements.txt` file (`pip freeze > requirements.txt`).
-* Add a `LICENSE` file (e.g., choose one from [choosealicense.com](https://choosealicense.com/)).
-* Provide *actual*, runnable usage instructions based on your code.
-* Add details about the specific fuzzy model, rules, or unique aspects of your implementation.
